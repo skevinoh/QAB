@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E879800621BF5528000C1F5C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E879800521BF5528000C1F5C /* Storyboard.storyboard */; };
+		E879802C21BF6A01000C1F5C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879802A21BF6A01000C1F5C /* OrderViewController.swift */; };
+		E879802E21BF8699000C1F5C /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879802D21BF8699000C1F5C /* OrderTableViewCell.swift */; };
+		E879803221BF9B33000C1F5C /* QABViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879803121BF9B33000C1F5C /* QABViewController.swift */; };
+		E879803421C245B6000C1F5C /* OrderNTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879803321C245B6000C1F5C /* OrderNTViewController.swift */; };
+		E891406A21C30C9B007201E5 /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E891406921C30C9B007201E5 /* SideMenu.framework */; };
 		E8D978A521B9DB7400B620BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D978A421B9DB7400B620BA /* AppDelegate.swift */; };
 		E8D978A721B9DB7400B620BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D978A621B9DB7400B620BA /* ViewController.swift */; };
 		E8D978AA21B9DB7400B620BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D978A821B9DB7400B620BA /* Main.storyboard */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E879800521BF5528000C1F5C /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		E879802B21BF6A01000C1F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/OrderViewController.swift; sourceTree = "<group>"; };
+		E879802D21BF8699000C1F5C /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		E879803121BF9B33000C1F5C /* QABViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QABViewController.swift; sourceTree = "<group>"; };
+		E879803321C245B6000C1F5C /* OrderNTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderNTViewController.swift; sourceTree = "<group>"; };
+		E891406921C30C9B007201E5 /* SideMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SideMenu.framework; path = Carthage/Build/iOS/SideMenu.framework; sourceTree = "<group>"; };
 		E8D978A121B9DB7400B620BA /* QAB_proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QAB_proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D978A421B9DB7400B620BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8D978A621B9DB7400B620BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +43,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E891406A21C30C9B007201E5 /* SideMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E879802F21BF86B0000C1F5C /* BattingOrder2 */ = {
+			isa = PBXGroup;
+			children = (
+				E879802D21BF8699000C1F5C /* OrderTableViewCell.swift */,
+				E879802A21BF6A01000C1F5C /* OrderViewController.swift */,
+			);
+			path = BattingOrder2;
+			sourceTree = "<group>";
+		};
+		E879803021BF9AF9000C1F5C /* QAB3 */ = {
+			isa = PBXGroup;
+			children = (
+				E879803121BF9B33000C1F5C /* QABViewController.swift */,
+			);
+			path = QAB3;
+			sourceTree = "<group>";
+		};
+		E879803521C245C0000C1F5C /* BattingOrder2NT */ = {
+			isa = PBXGroup;
+			children = (
+				E879803321C245B6000C1F5C /* OrderNTViewController.swift */,
+			);
+			path = BattingOrder2NT;
+			sourceTree = "<group>";
+		};
+		E891406821C30C9B007201E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E891406921C30C9B007201E5 /* SideMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E8D9789821B9DB7400B620BA = {
 			isa = PBXGroup;
 			children = (
 				E8D978A321B9DB7400B620BA /* QAB_proj */,
 				E8D978A221B9DB7400B620BA /* Products */,
+				E891406821C30C9B007201E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +106,14 @@
 				E8D978A421B9DB7400B620BA /* AppDelegate.swift */,
 				E8D978A621B9DB7400B620BA /* ViewController.swift */,
 				E8D978A821B9DB7400B620BA /* Main.storyboard */,
+				E879800521BF5528000C1F5C /* Storyboard.storyboard */,
 				E8D978AE21B9DB7600B620BA /* Assets.xcassets */,
 				E8D978B021B9DB7600B620BA /* LaunchScreen.storyboard */,
 				E8D978B321B9DB7600B620BA /* Info.plist */,
 				E8D978AB21B9DB7400B620BA /* QAB_proj.xcdatamodeld */,
+				E879803521C245C0000C1F5C /* BattingOrder2NT */,
+				E879802F21BF86B0000C1F5C /* BattingOrder2 */,
+				E879803021BF9AF9000C1F5C /* QAB3 */,
 			);
 			path = QAB_proj;
 			sourceTree = "<group>";
@@ -77,6 +128,7 @@
 				E8D9789D21B9DB7400B620BA /* Sources */,
 				E8D9789E21B9DB7400B620BA /* Frameworks */,
 				E8D9789F21B9DB7400B620BA /* Resources */,
+				E891406721C30C5E007201E5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -128,10 +180,33 @@
 				E8D978B221B9DB7600B620BA /* LaunchScreen.storyboard in Resources */,
 				E8D978AF21B9DB7600B620BA /* Assets.xcassets in Resources */,
 				E8D978AA21B9DB7400B620BA /* Main.storyboard in Resources */,
+				E879800621BF5528000C1F5C /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E891406721C30C5E007201E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SideMenu.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8D9789D21B9DB7400B620BA /* Sources */ = {
@@ -139,14 +214,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D978A721B9DB7400B620BA /* ViewController.swift in Sources */,
+				E879802E21BF8699000C1F5C /* OrderTableViewCell.swift in Sources */,
+				E879802C21BF6A01000C1F5C /* OrderViewController.swift in Sources */,
+				E879803221BF9B33000C1F5C /* QABViewController.swift in Sources */,
 				E8D978A521B9DB7400B620BA /* AppDelegate.swift in Sources */,
 				E8D978AD21B9DB7400B620BA /* QAB_proj.xcdatamodeld in Sources */,
+				E879803421C245B6000C1F5C /* OrderNTViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E879802A21BF6A01000C1F5C /* OrderViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E879802B21BF6A01000C1F5C /* Base */,
+			);
+			name = OrderViewController.swift;
+			sourceTree = "<group>";
+		};
 		E8D978A821B9DB7400B620BA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -162,6 +249,7 @@
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXVariantGroup section */
 
@@ -287,6 +375,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJ74R9S8QB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QAB_proj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,7 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "QAB.QAB-proj";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -304,6 +397,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJ74R9S8QB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QAB_proj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,7 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "QAB.QAB-proj";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
