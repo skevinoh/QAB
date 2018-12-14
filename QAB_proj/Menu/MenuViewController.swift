@@ -46,6 +46,14 @@ class MenuViewController: UIViewController {
             presenting.present(orderVC, animated: true, completion: nil)
         })
     }
+    @IBAction func onNewGametap(_ sender: Any) {
+        let presenting = self.presentingViewController!
+        presenting.dismiss(animated: true, completion: {
+            let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+            let orderVC = storyboard.instantiateViewController(withIdentifier: "ViewController")
+            presenting.present(orderVC, animated: true, completion: nil)
+        })
+    }
     @IBOutlet weak var opponentLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
