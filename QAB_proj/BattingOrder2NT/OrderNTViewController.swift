@@ -1,10 +1,3 @@
-//
-//  OrderNTViewController.swift
-//  QAB_proj
-//
-//  Created by Kevin Sejin Oh on 12/12/18.
-//  Copyright © 2018 Kevin Sejin Oh. All rights reserved.
-//
 
 import UIKit
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E85551A321C31C24002AE512 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85551A221C31C24002AE512 /* MenuViewController.swift */; };
+		E85551A621C32ACE002AE512 /* IndividualTotalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85551A521C32ACE002AE512 /* IndividualTotalsViewController.swift */; };
+		E85551A921C32D85002AE512 /* GameTotalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85551A821C32D85002AE512 /* GameTotalsViewController.swift */; };
+		E85551AB21C3319C002AE512 /* PastGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85551AA21C3319C002AE512 /* PastGamesViewController.swift */; };
 		E879800621BF5528000C1F5C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E879800521BF5528000C1F5C /* Storyboard.storyboard */; };
 		E879802C21BF6A01000C1F5C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879802A21BF6A01000C1F5C /* OrderViewController.swift */; };
 		E879802E21BF8699000C1F5C /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879802D21BF8699000C1F5C /* OrderTableViewCell.swift */; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E85551A221C31C24002AE512 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E85551A521C32ACE002AE512 /* IndividualTotalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualTotalsViewController.swift; sourceTree = "<group>"; };
+		E85551A821C32D85002AE512 /* GameTotalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTotalsViewController.swift; sourceTree = "<group>"; };
+		E85551AA21C3319C002AE512 /* PastGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastGamesViewController.swift; sourceTree = "<group>"; };
 		E879800521BF5528000C1F5C /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		E879802B21BF6A01000C1F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/OrderViewController.swift; sourceTree = "<group>"; };
 		E879802D21BF8699000C1F5C /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
@@ -50,6 +58,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E855519D21C316F0002AE512 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E85551A221C31C24002AE512 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E85551A421C32A87002AE512 /* InidividualTotals4 */ = {
+			isa = PBXGroup;
+			children = (
+				E85551A521C32ACE002AE512 /* IndividualTotalsViewController.swift */,
+			);
+			path = InidividualTotals4;
+			sourceTree = "<group>";
+		};
+		E85551A721C32D46002AE512 /* GameTotals5 */ = {
+			isa = PBXGroup;
+			children = (
+				E85551A821C32D85002AE512 /* GameTotalsViewController.swift */,
+			);
+			path = GameTotals5;
+			sourceTree = "<group>";
+		};
 		E879802F21BF86B0000C1F5C /* BattingOrder2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,14 +138,18 @@
 				E8D978A421B9DB7400B620BA /* AppDelegate.swift */,
 				E8D978A621B9DB7400B620BA /* ViewController.swift */,
 				E8D978A821B9DB7400B620BA /* Main.storyboard */,
+				E85551AA21C3319C002AE512 /* PastGamesViewController.swift */,
 				E879800521BF5528000C1F5C /* Storyboard.storyboard */,
 				E8D978AE21B9DB7600B620BA /* Assets.xcassets */,
 				E8D978B021B9DB7600B620BA /* LaunchScreen.storyboard */,
 				E8D978B321B9DB7600B620BA /* Info.plist */,
 				E8D978AB21B9DB7400B620BA /* QAB_proj.xcdatamodeld */,
+				E855519D21C316F0002AE512 /* Menu */,
 				E879803521C245C0000C1F5C /* BattingOrder2NT */,
 				E879802F21BF86B0000C1F5C /* BattingOrder2 */,
 				E879803021BF9AF9000C1F5C /* QAB3 */,
+				E85551A421C32A87002AE512 /* InidividualTotals4 */,
+				E85551A721C32D46002AE512 /* GameTotals5 */,
 			);
 			path = QAB_proj;
 			sourceTree = "<group>";
@@ -216,10 +252,14 @@
 				E8D978A721B9DB7400B620BA /* ViewController.swift in Sources */,
 				E879802E21BF8699000C1F5C /* OrderTableViewCell.swift in Sources */,
 				E879802C21BF6A01000C1F5C /* OrderViewController.swift in Sources */,
+				E85551A621C32ACE002AE512 /* IndividualTotalsViewController.swift in Sources */,
+				E85551AB21C3319C002AE512 /* PastGamesViewController.swift in Sources */,
 				E879803221BF9B33000C1F5C /* QABViewController.swift in Sources */,
 				E8D978A521B9DB7400B620BA /* AppDelegate.swift in Sources */,
 				E8D978AD21B9DB7400B620BA /* QAB_proj.xcdatamodeld in Sources */,
+				E85551A921C32D85002AE512 /* GameTotalsViewController.swift in Sources */,
 				E879803421C245B6000C1F5C /* OrderNTViewController.swift in Sources */,
+				E85551A321C31C24002AE512 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
